@@ -1,0 +1,1086 @@
+cd .local/share
+minecraft-launcher --workDir /home/nick/.local/share/minecraft
+minecraft-launcher --lockDir /home/nick/.local/share/minecraft
+ls -a | wc -l
+echo $XCURSOR_PATH
+cp ~/.local/share/icons/volantes_light_cursors /usr/share/icons
+cp -r ~/.local/share/icons/volantes_light_cursors /usr/share/icons
+sudo cp -r ~/.local/share/icons/volantes_light_cursors /usr/share/icons
+cd /etc/ly.
+nvim .zprofile
+steam-native
+cd /etc/ly
+sudo nvim config.ini
+nvim index.theme
+sudo nvim index.theme
+pacman -Qu
+uninstall steam-native-runtime
+uninstall xdg-ninja
+yay -Rs iso2god
+search iso2god
+yay -Ss iso2god
+uninstall iso2god-rs
+install hyprland
+search feh
+search swaybg
+search waypaper
+yay -Ss waypaper
+search swww
+install swww
+search mpvpaper
+yay -Ss mpvpaper
+yay -S mpvpaper
+cd pics
+cd wallpapers
+mpvpaper DP-3 /home/nick/pics/wallpapers/black_hole.mp4
+mpvpaper --help
+mpv --help
+mpv --list-options
+mpvpaper -o "loop" DP-3 /home/nick/pics/wallpapers/black_hole.mp4
+mpvpaper -o "loop" DP-3 /home/nick/pics/wallpapers/silksong_hollow_knight.mp4
+killall linux-wallpaperengine
+hyprctl dispatch exec mpvpaper -o "loop" DP-3 ~/pics/wallpaper/animated/black_hole.mp4
+hyprctl dispatch exec "mpvpaper -o 'loop DP-3 ~/pics/wallpaper/animated/black_hole.mp4"
+hyprctl dispatch exec "mpvpaper -o 'loop' DP-3 ~/pics/wallpaper/animated/black_hole.mp4"
+hyprctl dispatch exec "mpvpaper -o 'loop' DP-3 ~/pics/wallpapers/animated/black_hole.mp4"
+hyprctl dispatch exec "mpvpaper -o 'loop' DP-3 ~/pics/wallpapers/animated/cyberpunk_samurai.mp4"
+hyprctl dispatch exec "mpvpaper -o 'no-audio loop' DP-3 ~/pics/wallpapers/animated/black_hole.mp4"
+uninstall linux-wallpaperengine
+yay -Ss wallpaper
+uninstall linux-wallpaperengine-git
+hyprctl dispatch exec "mpvpaper -o 'no-audio loop' DP-3 ~/pics/wallpapers/animated/dark-heart-of-space.1920x1080.mp4"
+LC_ALL=C.UTF-8 pacman -Qi | awk '/^Name/{name=$3} /^Installed Size/{print $4$5, name}' | LC_ALL=C.UTF-8 sort -h
+yay -Ss zen-browser
+uninstall zen-browser-bin
+yay -S zen-browser
+search firefox
+install firefox
+search yasm
+yay -S zen-browser-bin
+killall steamwebhelper
+search gdb
+install gdb
+g++ main.cpp -g -o output.o
+nvim main.cpp
+search nodejs
+install nodejs
+search delve
+install delve
+nvim unlock_protocol.sh
+killall MainThread
+yay -S xdg-ninja
+xdg-ninja
+sudo pacman -Qu
+nvim updates.sh
+pacman -Syy
+sudo pacman -Syy && wtfutil
+search floorp
+yay -Ss floorp
+search mullvad
+yay -Ss mullvad
+sh unlock_protocol.sh
+killall hyprpaper
+swww-daemon
+swww img -o DP-3 ~/pics/wallpapers/animated/fractal.gif
+swww kill
+hyprctl dispatch exec swww-daemon
+swww clear DP-3
+swww clear 000000
+swww query
+swww img -o DP-1 ~/pics/wallpapers/darkstreetlamp.jpg
+hyprctl dispatch exec "mpvpaper -o 'no-audio loop' DP-3 ~/pics/wallpapers/animated/blade_runner.mp4"
+nvim zshenv
+search swaylock
+install swaylock
+search swayidle
+install swayidle
+swaylock -c 000000
+nvim hyprlock.conf
+swaylock --config ~/.config/swaylock/config
+yay -Ss swaylock
+yay -S swaylock-effects
+swaylock
+man swaylock
+hyprctl monitors
+search wev
+which rofi-power-menu
+sudo nvim rofi-power-menu
+nvi
+search shad
+yay -Ss ps4
+yay -S shadps4-git
+./build/shadps4
+git clone https://github.com/ericmurphyxyz/rofi-wifi-menu.git
+cd rofi-wifi-menu
+sh rofi-wifi-menu.sh
+t
+search fuzzel
+install fuzzel
+hyprctl layers
+expr 30 + 10
+expr 30 - 10
+expr 30 * 10
+expr 30 / 10
+expr 30 \* 10
+mynum1=100
+echo $mynum
+echo $mynum1
+expr $mynum1 + 50
+search bash-language-server
+install bash-language-server
+echo exepath("node")
+search node
+flatpak install flathub org.freedesktop.Sdk.Extension.node18 --user
+uninstall bash-language-server
+search nvm
+install nvm
+search npm
+echo exepath("npm")
+npm
+touch myfile
+rm myfile
+which btop
+command -v btop
+swww img -o DP-1 ~/pics/wallpapers/darkcity.png
+swww img -o DP-1 ~/pics/wallpapers/aperture.png
+uninstall nvm npm
+fuzzel --help
+fuzzel --dmenu0
+fuzzel
+fuzzel --terminal
+search dmenu
+install dmenu
+fuzzel -d
+dmenu
+uninstall dmenu
+man fuzzel.ini
+fuzzel --dmenu
+fuzzel --run-dmenu
+sudo pacman -S freetype2 harfbuzz cairo pango wayland libxkbcommon
+sudo pacman -S meson scdoc wayland-protocols
+search tofi
+yay -Ss tofi
+yay -S tofi
+tofi
+meson build && ninja -C build install
+tofi-drun
+cd swayidle
+swayidle --help
+swayidle -w
+swayidle
+which swayidle
+swayidle -w timeout 300 'swaylock -f' timeout 360 'hyprctl dpms off' resume 'hyprctl dispatch dpms on'
+sway -h
+swayidle -C
+swayidle -C ~/.config/swayidle/config
+search idle
+rm config
+swayidle -w before-sleep 'swaylock -f' after-resume 'sh ~/sh/unlock_protocol.sh'
+swayidle -h
+hyprctl dispatch exec "swayidle -w before-sleep 'swaylock -f' unlock 'sh ~/sh/unlock_protocol.sh'"
+hyprctl dispatch exec "swayidle -w before-sleep 'swaylock -f' resume 'sh ~/sh/unlock_protocol.sh'"
+swayidle -w before-sleep 'swaylock -f' resume 'sh ~/sh/unlock_protocol.sh'
+swayidle -w before-sleep 'swaylock -f' unlock 'sh ~/sh/unlock_protocol.sh'
+swaylock --help
+swayidle -w swaylock ; pkill swayidle
+swayidle -w 'swaylock -f' ; pkill swayidle
+man swayidle
+pkill swayidle
+hyprctl dispatch exec "swayidle -w before-sleep 'swaylock -f' after-resume 'sh ~/sh/unlock_protocol.sh'"
+cd .config
+tofi-run
+tofi-run --help
+tofi-drun --help
+man tofi-run
+tofi-run --run-launch=true
+tofi-run --drun-launch=true
+tofi-drun --drun-launch=true
+cd .local/share/applications
+nvim shadps4.desktop
+search wlogout
+yay -Ss wlogout
+gpg2 --homedir "$XDG_DATA_HOME"/gnupg
+nvim .zshenv
+chown -h
+chown --help
+sudo gpg --keyserver pgp.mit.edu --recv-keys E25D679AF73C6D2F
+ls -l ~/.gnupg
+gpg -H --keyserver pgp.mit.edu --recv-keys E25D679AF73C6D2F
+gpg --help
+chown 600 ~/.local/share/gnupg/*
+cd .local/share/gnupg
+sudo chown 600 ~/.local/share/gnupg/*
+chown 700 ~/.local/share/gnupg
+sudo chown 700 ~/.local/share/gnupg
+chown -R $(whoami) ~/.local/share/gnupg/
+sudo chown -R $(whoami) ~/.local/share/gnupg/
+sudo pacman-key --refresh-keys
+cd gnupg
+ls -laR
+chown -R $(whoami) ~/.gnupg/
+find ~/.gnupg -type f -exec chmod 600 {} \;
+find ~/.gnupg -type d -exec chmod 700 {} \;
+yay -S wlogout
+gpg --keyserver pgp.mit.edu --recv-keys E25D679AF73C6D2F
+install wlogout
+git clone https://github.com/ArtsyMacaw/wlogout.git
+cd wlogout
+meson build
+ninja -C build
+sudo ninja -C build install
+wlogout --row-spacing 10 --colum-spacing 10
+wlogout --row-spacing 10 --column-spacing 10
+uninstall rofi-power-menu
+uninstall rofi
+nivm
+swaync --help
+swaync-client --help
+hyprctl dispatch exec swaync-client
+cd swaync
+nvim config.json
+man swaync-client
+notify-send "this is a notification"
+man swaync(5)
+man swaync
+swaync-client --reload-config
+nvim style.css
+tofi --help
+sh tofi-wifi-menu.sh
+uninstall hypridle hyprlock
+uninstall hyprpaper
+search hyprpaper
+cat install_results.log
+nvim tofi-wifi-menu.sh
+echo --help
+echo -h
+man echo
+man uniq
+man read
+read -h
+read --help
+read
+touch testfile
+rm testfile
+sh practice.sh
+chmod +x universal-updater.sh
+chmod +x unlock_protocol.sh
+sudo mv tofi-wifi-menu.sh /usr/local/bin/tofi-wifi-menu
+ls -la /usr/local/bin
+wlogout
+sudo chown root:root /usr/local/bin/tofi-wifi-menu
+tofi-wifi-menu
+ls ~/
+nvim universal-updater.sh
+nvim breathing-practice.sh
+sh breathing-practice.sh
+echo "Lock Logout Suspend Reboot Shutdown" | tofi
+echo -e "Lock\nLogout\nSuspend\nReboot\nShutdown" | tofi --prompt-text "Power Menu"
+nvim tofi-power-menu.sh
+echo -e "Lock\nLogout\nSuspend\nReboot\nShutdown" | tofi --prompt-text "Power menu"
+cd tofi
+nvim config
+man tofi
+test "Yes" -ne "Yes"
+test "Yes" != "Yes"
+test "Yes" = "Yes"
+echo $?
+sh tofi-power-menu.sh
+sudo mv tofi-power-menu.sh /usr/local/bin/tofi-power-menu
+tofi-power-menu
+nvim /usr/local/bin/tofi-power-menu
+sudo chown root:root /usr/local/bin/tofi-power-menu
+cd waybar
+nvim config.jsonc
+loginctl lock-session ${XDG_SESSION_ID-
+loginctl lock-session ${XDG_SESSION_ID-}
+loginctl
+touch practice.txt
+rm practice.txt
+touch practice.sh
+chmod +x practice.sh
+nvim practice.sh
+which at
+search at
+cd yazi
+nvim yazi.toml
+man yazi
+yazi --help
+yazi --debug
+swww img -o DP-1 ~/pics/wallpapers/black_mesa.jpg
+nvim /usr/local/bin/tofi-wifi-menu
+sudo nvim /usr/local/bin/tofi-wifi-menu
+search ripgrep
+trash-restore
+install npm
+nvim .clang-format
+steam
+search tmux
+install tmux
+tmux source-file "~/.config/tmux/tmux.config"
+tmux source-file "~/.config/tmux/tmux.conf"
+tmux source-file "/home/nick/.config/tmux/tmux.conf"
+install discord-ptb
+tmux attact main
+tmux attach main
+cd .config/tmux
+tmux --help
+tmux sessions
+tmux session
+tmux
+tmux attach
+sh
+nvim open-tmux.sh
+kitty --help
+nvim .zshrc
+nvim config.yml
+sudo chmod -w master_password.txt
+sudo chmod -w bitwarden_recovery_code.txt
+sudo chmod -w nexus_recover_codes.txt
+sudo chmod -w tuta_recovery_code.txt
+search mixtral
+yay -Ss mixtral
+pacman -Rdd linux-firmware
+sudo pacman -Rdd linux-firmware
+sudo pacman -Syu linux-firmware
+tmux list-sessions
+yay -Ss xenia
+uninstall xenia-canary-git
+swww img -o DP-1 ~/pics/wallpapers/penguin.jpg
+swww img -o DP-1 ~/pics/wallpapers/penguin.png
+nvim tmux
+search docker-desktop
+yay -Ss docker
+search qemu
+modprobe kvm
+lsmod | grep kvm
+sudo usermod -aG kvm $USER
+ls -al /dev/kvm
+install qemu-full
+install qemu-base
+which qemu
+wget https://download.docker.com/linux/static/stable/x86_64/docker-28.3.0.tgz -qO- | tar xvfz - docker/docker --strip-components=1
+sudo pacman -U ./docker-desktop-x86_64.pkg.tar.zst
+yay -S docker-desktop
+y]
+docker
+killall docker-desktop
+cd docs
+nvim watchlist.txt
+sudo usermod -a -G docker $USER
+git clone https://github.com/docker/welcome-to-docker
+cd welcome-to-docker
+docker build -t welcome-to-docker/ .
+docker build -t welcome-to-docker .
+xdg-open "http://localhost:8089"
+xdg-open "http://localhost:8080"
+sudo systemctl enable docker.service
+sudo systemctl enable docker.socket
+sudo systemctl restart docker
+sudo systemctl status docker.socket
+curl --unix-socket /var/run/docker.sock  http://localhost/_ping; echo
+search docker
+sudo systemctl restart docker.socket
+id docker
+id 968
+id nick
+ls -l /var/run/docker.sock
+stat /var/run/docker.sock
+sudo docker info
+sudo service docker restart
+docker run -it --rm archlinux bash -c "echo hello world"
+uninstall docker-desktop
+sudo systemctl enable docker
+cd proj
+mkdir dockers
+cd dockers
+chmod +x print-message.sh
+docker build -t "starwarstext" .
+docker run starwarstext
+sh print-message.sh
+docker info
+nvim print-message.sh
+docker build -t "ascii" .
+docker run ascii:latest
+docker system prune -a
+yay -Ss ducker
+sudo nvim docker.service
+mkdir .docker
+pwd
+ps aux | grep -i docker | grep -v grep
+sudo rsync -aqxP /var/lib/docker/ /home/nick/.docker
+systemctl status docker.socket
+sudo rsync -aqxP /var/lib/docker/ /home/nick/.local/share/docker
+sudo systemctl daemon-reload
+sudo systemctl start docker
+sudo systemctl stop docker.service
+sudo systemctl stop docker.socket
+uninstall docker
+systemctl status docker.service
+install docker
+sudo mkdir /home/nick/.local/share/docker
+sudo rmdir .docker
+sudo rmdir -r .docker
+sudo rm -r .docker
+sudo rm -r docker
+sudo rsync -aP /var/lib/docker/ /home/nick/.local/share/docker/
+sudo systemctl status docker.service
+sudo nvim /etc/docker/daemon.json
+sudo mkdir docker
+sudo nvim daemon.json
+sudo systemctl start docker.socket
+sudo systemctl start docker.service
+sudo systemctl status docker
+sudo docker info |
+sudo docker info | grep "Docker Root Dir"
+docker run hello-world
+cd docker
+docker search ubuntu
+docker pull ubuntu
+docker search arch
+docker run -it ubuntu /bin/bash
+docker search bitwarden
+docker search vaultwarden
+docker run ubuntu
+docker attach 3d7784dd3e32
+docker search tuta
+docker search tutanota
+docker run -it -d ubuntu
+docker attach 0
+docker attach charming_blackwell
+docker run nginx
+docker run -it -d -p 8080:80 nginx
+docker stop inspiring
+docker stop e
+docker stop e9
+docker run -it -d --restart unless-stopped -p 8080:80 nginx
+docker attach frosty_torvalds
+man tmux
+docker stop frosty_torvalds
+docker run -it ubuntu
+docker commit 90d4bc1f439a nick/apache-test:1.0
+docker stop boring_bardeen
+docker run -d -it -p 8080:80 nick/apache-test:1.0
+docker commit --change='ENTRYPOINT ["apachectl", "-DFOREGROUND"]' naughty_almeida nick/apache-test:1.1
+docker stop naughty_almeida
+docker run -d -it -p 8080:80 nick/apache-test:1.1
+docker stop infallible_yonath
+docker --help
+docker rmi nick/apache-test:1.0
+docker rmi nginx
+docker rmi 86
+docker rmi 95
+mkdir test
+cd test
+nvim Dockerfile
+docker build -t nick/apache-test:1.2 .
+docker run pensive_proskuriakova
+docker start pensive_proskuriakova
+docker start -it pensive_proskuriakova
+docker start pensive_proskuriakova /bin/bash
+docker start -ai pensive_proskuriakova
+docker start unreffled_ellis
+docker stop unruffled_ellis
+docker start unruffled_ellis
+docker attach unruffled_ellis
+docker rm infallible_yonath
+docker rmi ef2812ac1a03
+docker rmi faf90ab9d084
+docker rm 843
+docker rmi 86206baa11e7
+docker rm e995
+docker rm e0a7
+docker rm 8a52
+docker rmi 9592f5595f2b
+docker rm -a
+docker rm --help
+docker rm boring_bardeen
+docker rm charming_blackwell
+docker rm charming_rosalind
+docker container prune -f
+docker images -a
+docker rmi ubuntu
+docker search firefox
+docker search librewolf
+docker search spotify
+docker search minecraft
+docker search void
+search portainer
+yay -Ss portainer
+yay -S portainer-bin
+docker pull vaultwarden/server:latest
+docker run -d --name vaultwarden -v /vw-data/:/data/ -p 80:80 vaultwarden/server:latest
+cd .secrets
+nvim master_password.txt
+yay -Ss bitwarden
+uninstall bitwarden
+mkdir searxng-instance
+docker pull searxng/searxng
+docker run --rm \\
+             -d -p 81:80 \\
+             -v "${PWD}/searxng:/etc/searxng" \\
+             -e "BASE_URL=http://localhost:81/" \\
+             -e "INSTANCE_NAME=searxng-instance" \\
+             searxng/searxng
+docker stop flamboyant_benz
+docker rm flamboyant_benz
+rm -r searxng-instance
+cd searxng-instance
+export port=8080
+export PORT=8080
+docker run --rm \\
+             -d -p ${PORT}:8080 \\
+             -v "${PWD}/searxng:/etc/searxng" \\
+             -e "BASE_URL=http://localhost:$PORT/" \\
+             -e "INSTANCE_NAME=searxng-instance" \\
+             searxng/searxng
+install ducker
+cd tmux
+ducker
+docker run \\
+             -d -p ${PORT}:8080 \\
+             -v "${PWD}/searxng:/etc/searxng" \\
+             -e "BASE_URL=http://localhost:$PORT/" \\
+             -e "INSTANCE_NAME=searxng-instance" \\
+             searxng/searxng
+docker stop agitated_proskuriakova
+orphans
+docker pull ollama/ollama:room
+docker search ollama
+docker pull ollama/ollama:rocm
+mkdir ollama-instance
+cd ollama-instance
+docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama:rocm\
+
+docker attach ollama
+docker start ollama
+docker exec -it ollama ollama run gemma3:12b
+docker search steam
+docker search lutris
+docker search nextcloud
+docker search libreoffice
+docker search open-webui
+docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=http://localhost:11434 -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker rm 5e8
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker rm ff
+docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=http://10.0.0.56:11434 -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker stop 2d76
+docker rm 2d76
+search docker-compose
+install docker-compose
+docker run -d \\
+  --name=libreoffice \\
+  --security-opt seccomp=unconfined `#optional` \\
+  -e PUID=1000 \\
+  -e PGID=1000 \\
+  -e TZ=Etc/UTC \\
+  -p 3005:3000 \\
+  -p 3006:3001 \\
+  --restart unless-stopped \\
+  lscr.io/linuxserver/libreoffice:latest
+docker run --help
+docker stop 044
+docker rm 044
+docker run -d -p 3000:8080 -e OLLAMA_API_BASE_URL=http://ollama:11434 -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker rm 86
+docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=http://ollama:11434 -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+docker stop vaultwarden
+docker start vaultwarden
+docker stop open-webui
+docker rm ea
+curl -fsSL https://ollama.com/install.sh | sh
+cd /use/local
+cd /usr/local
+cd lib
+rm -r ollama
+sudo rm -r ollama
+rm docker-compose.yaml
+docker stop ollama
+docker stats
+docker rm ollama
+docker compose up
+hyprland
+docker compose -d up
+docker-compose -d up
+docker-compose --help
+docker-compose start -d
+docker compose start -d
+docker compose --help
+docker compose up --help
+docker compose up -d
+docker update --restart=always vaultwarden
+docker update --restart=always libreoffice
+docker update --restart=always open-webui
+docker update --restart=always ollama
+nvim
+docker rmi ollama/ollama:rocm
+cd zsh
+cdls nvim
+cdls .secrets
+cdls
+cdls zsh
+cl .secrets
+search tint
+yay -Ss tint
+yay -S tint-git
+tint
+uninstall tint-git
+yay -S tetris-terminal-git
+search tetris
+yay -Ss tetris
+yay -Ss yaourt
+v 
+rain
+pulsemixer
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+nvim tmux.conf
+killall mpvpaper
+swww img -o DP-3 ~/pics/wallpapers/cyberface.png
+swww img -o DP-3 ~/pics/wallpapers/black_and_white_city.jpg
+yay -Ss vintagestory
+cd wtf
+v config.yml
+cd rmpc
+v config.ron
+swww img -o DP-3 ~/pics/wallpapers/space.png
+swww img -o DP-1 ~/pics/wallpapers/space.png
+cd hypr
+search balena
+search etcher
+search rufus
+yay -Ss rufus
+yay -Ss balena
+search startup-disk
+search startup
+search star-sector
+yay -Ss star-sector
+yay -Ss starsector
+yay -S starsector
+sudo archlinux-java set java-17-openjdk
+starsector
+sudo rm -r searxng
+search cups
+wifi
+search ghostscript
+install ghostscript
+search libreoffice
+install libreoffice
+docker stop libreoffice
+docker ps -a
+docker rm libreoffice
+docker images
+docker rmi lscr.io/linuxserver/libreoffice:latest
+rmpc rescan
+ip -c a
+ip r
+cd nvim
+search gnome-disk-utility
+install gnome-disk-utility
+search lvm2
+lvs
+sudo lvs
+sudo pacman -Syy
+yay -S discord-ptb
+sudo gnome-disks
+sudo fdisk -l
+findmnt
+findmnt /dev/sdb
+findmnt /dev
+umount /dev/sdb
+ls -l /dev/disk/by-id/usb-*
+dd bs=4M if=/home/nick/dl/proxmox-ve_8.4-1.iso of=/dev/disk/by-id/usb-Kingston_DataTraveler_2.0_001BFC3653BCC33079502951-0:0 conv=fsync oflag=direct status=progress
+sudo dd bs=4M if=/home/nick/dl/proxmox-ve_8.4-1.iso of=/dev/disk/by-id/usb-Kingston_DataTraveler_2.0_001BFC3653BCC33079502951-0:0 conv=fsync oflag=direct status=progress
+sync
+cd niri
+uninstall gnome-disk-utility
+touch server-notes.txt
+v server-notes.txt
+sudo ufw allow Samba
+sudo ufw allow samba
+ip addr show
+man hosts(5)
+man hosts
+sudo v hosts
+sudo nvim hosts
+sudo vim resolv.conf
+nmcli con show
+sudo vim /etc/resolv.conf
+install openresolv
+sudo vim /etc/resolvconf/resolv.conf.d/head
+install dig
+search dig
+search bind
+install bind
+dig -v
+sudo systemctl restart NetworkManager
+dig
+yay -S tutanota-desktop
+yay -Ss zen-browser-patch-bin
+yay -Q
+yay -Ss 4kvideodownloader
+yay -Ss 4kvideodownloaderplus
+yay -S 4kvideodownloaderplus
+4kvideodownloaderplus
+uninstall 4kvideodownloaderplus
+uninstall tutanota-desktop
+v docker-compose.yaml
+nvim docker-compose.yaml
+resolvectl
+scp dealfam@10.0.0.250:/etc/pihole/tls_ca.crt /home/nick/dl
+sudo scp dealfam@10.0.0.250:/etc/pihole/tls_ca.crt /home/nick/dl
+sudo scp dealfam@10.0.0.250:/home/dealfam/tls_ca.crt /home/nick/dl
+nslookup home.dealfam.lan
+rm yt-dlp
+search yt-dlp
+install yt-dlp
+scp dealfam@10.0.0.250:/home/dealfam/crt/dealfamCA.crt /home/nick/dl
+scp dealfam@10.0.0.250:/home/dealfam/tls_ca.crt /home/nick/dl
+ls -l
+ls -a
+ls -la
+search zen-browser
+cl rpcm
+cl themes
+scp dealfam@10.0.0.250:/home/dealfam/dealfam.crt /home/nick/dl
+ssh dealfam@10.0.0.250
+scp dealfam@10.0.0.250:/home/dealfam/crt/dealfam.key /home/nick/dl
+rm dealfam.*
+rm dealfamCA.crt
+rm tls_ca.crt
+yt-dlp -F https://www.youtube.com/watch?v=RvuNXblcK14
+yt-dlp https://www.youtube.com/watch?v=RvuNXblcK14
+yt-dlp --version
+yt-dlp -F "https://www.youtube.com/watch?v=RvuNXblcK14"
+yt-dlp "https://www.youtube.com/watch?v=RvuNXblcK14"
+rm Ghost\ Howl\ \[RvuNXblcK14\].webm
+yt-dlp -f - "https://www.youtube.com/watch?v=RvuNXblcK14"
+cd ..
+cd sh
+v unlock_protocol.sh
+scp dealfam@10.0.0.250:/home/dealfam/crt/dealfam.crt /home/nick/dl
+ssh dealfam@10.0.0.240
+yt-dlp -f - "https://www.youtube.com/watch?v=0Tv5shB4Gg0&list=PL-1t_YVeVH15bDdPH-3-2XUlxLeD2gFRd&index=2"
+yt-dlp --cookies -f - "https://www.youtube.com/watch?v=0Tv5shB4Gg0&list=PL-1t_YVeVH15bDdPH-3-2XUlxLeD2gFRd&index=2"
+yt-dlp --cookies-from-browser -f - "https://www.youtube.com/watch?v=0Tv5shB4Gg0&list=PL-1t_YVeVH15bDdPH-3-2XUlxLeD2gFRd&index=2"
+yt-dlp --cookies-from-browser --firefox -f - "https://www.youtube.com/watch?v=0Tv5shB4Gg0&list=PL-1t_YVeVH15bDdPH-3-2XUlxLeD2gFRd&index=2"
+yt-dlp --cookies-from-browser firefox -f - "https://www.youtube.com/watch?v=0Tv5shB4Gg0&list=PL-1t_YVeVH15bDdPH-3-2XUlxLeD2gFRd&index=2"
+yt-dlp --cookies-from-browser zen -f - "https://www.youtube.com/watch?v=0Tv5shB4Gg0&list=PL-1t_YVeVH15bDdPH-3-2XUlxLeD2gFRd&index=2"
+yt-dlp --cookies-from-browser firefox:/home/nick/.zen/Profile \Groups/ -f - "https://www.youtube.com/watch?v=0Tv5shB4Gg0&list=PL-1t_YVeVH15bDdPH-3-2XUlxLeD2gFRd&index=2"
+yt-dlp --cookies-from-browser firefox:/home/nick/.zen/Profile\ Groups/ -f - "https://www.youtube.com/watch?v=0Tv5shB4Gg0&list=PL-1t_YVeVH15bDdPH-3-2XUlxLeD2gFRd&index=2"
+yt-dlp --cookies-from-browser firefox:/home/nick/.zen/profiles.ini -f - "https://www.youtube.com/watch?v=0Tv5shB4Gg0&list=PL-1t_YVeVH15bDdPH-3-2XUlxLeD2gFRd&index=2"
+yt-dlp --cookies-from-browser firefox:/home/nick/.zen -f - "https://www.youtube.com/watch?v=0Tv5shB4Gg0&list=PL-1t_YVeVH15bDdPH-3-2XUlxLeD2gFRd&index=2"
+yt-dlp --cookies-from-browser firefox:/home/nick/.zen -f - "https://www.youtube.com/watch?v=jaz2stVYqw4&t=29s"
+yt-dlp --cookies-from-browser firefox:/home/nick/.zen -f - "https://www.youtube.com/watch?v=iuG8ehUbYsQ&t=4s"
+cd /vids
+yt-dlp -f - "https://hianime.to/watch/summer-wars-401?ep=58036"
+yt-dlp -f - "https://9animetv.to/watch/summer-wars-401?ep=58036"
+cl rmpc
+cd themes
+v default.ron
+swww img ~/pics/wallpapers/black_hole.png
+swww img -o ~/pics/wallpapers/false_gods.png
+swww img ~/pics/wallpapers/false_gods.png
+swww -o DP-1 black
+swww --help
+swww help
+man swww
+swww img ~/pics/wallpapers/solid_black.png
+cd wall
+nvim server-notes.txt
+mpvpaper -h
+man mpvpaper
+uninstall mpvpaper
+clear
+nproc
+nmcli
+nmtui
+killall swaync-client
+killall swaync
+v hyprland
+cd dl
+curl -sSLf https://github.com/aclap-dev/vdhcoapp/releases/latest/download/install.sh | bash
+vdhcoapp install
+./vdhcoapp install
+./vdhcoapp help
+uninstall vlc
+sudo pacman -Scc
+uninstall yt-dlp
+uninstall swaync
+touch config
+notify-send -i discord hi
+hyprctl dispatch exec mako
+search mako
+v config
+man 5 mako
+makoctl
+sudo systemctl start dbus
+sudo systemctl enable dbus
+journalctl
+journalctl -f
+sudo systemctl status dbus
+notify-send hi
+search dunst
+uninstall htop
+uninstall dunst
+install mako
+uninstall mako
+install dunst
+mkdir -p ~/.config/dunst
+cd ../dunst
+cp /etc/dunst/dunstrc .
+man dunst
+dunst -conf ~/.config/dunst/dunstrc
+dunstctl
+cl kitty
+v kitty.conf
+v kitty.conf.bak
+cd ~/sh
+mv notifications.sh ~/.config/waybar/
+notify-send "hello"
+dunstctl history | head -n 1
+dunstctl context
+dunstctl history
+dunstctl history-pop
+dunstctl close-all
+dunstctl count
+touch notifications.sh
+./notfications.sh
+chmod +x notifications.sh
+v notifications.sh
+./notifications.sh
+rm notifications.sh
+dunstctl help
+dunstctl history-clear
+killall dunst
+v dunstrc
+dunstctl count history
+cl
+cl sh
+./breathing-practice.sh
+cd /etc/mpv
+cd /home/nick/dl/.nothing
+cd /home/nick/vids/Anime/Shows/.keepout
+search fastanime
+yay -Ss fastanime
+cl zsh
+v .zshrc
+yay -Rs pfetch
+uninstall pfetch
+cd nothing
+swww -h
+swww img ~/pics/wallpapers/rain_leaf.png
+swww img ~/pics/wallpapers/sci-fi_city.jpg
+pacman -Scc
+update
+yay -Syy
+docker ps
+search niri
+install niri
+search xwayland-satellite
+sudo pacman -S xwayland-satellite
+sudo pacman -Ss xdg-desktop-portal-gtk
+sudo pacman -Ss xdg-desktop-portal-gnome
+sudo pacman -Ss gnome keyring
+sudo pacman -Ss gnome-keyring
+swww img ~/pics/wallpapers/balrog.jpg
+install xdg-desktop-portal-gtk xdg-desktop-portal-gnome gnome-keyring
+htop
+nvim hyprland.conf
+v config.jsonc
+nvim config.kdl
+cl waybar
+v style.css
+reload
+niri help
+niri -h
+waybar
+fastfetch
+sudo pacman -S lxappearance
+cd /vids/Anime/Shows/.keepout/Animations
+cd /vids/Anime/Shows
+cd vids
+cd Anime
+cd Shows
+cd .keepout
+cd Animations
+cl docs
+cd notes
+mkdir vaults
+cd vauls
+cd vaults
+mkdir personal work
+cl nvim
+yay -Scc
+killorphans
+yay -Ss 4kvideo
+sudo pacman -Ss 4kvideo
+dysk
+swww img ~/pics/wallpapers/firelink_shrine.png
+sudo pacman -Rs hyprland
+sudo pacman -Ss hypr
+wtf
+sudo pacman -Rs hyprlang hyprpicker hyprshot hyprutils hyprwayland-scanner xdg-desktop-portal-hyprland
+env
+echo $PATH
+cl swayidle
+systemctl --user add-wants niri.service swayidle.service
+sudo pacman -S mako
+systemctl --user add-wants niri.service waybar.service
+sudo pacman -Rs dunst
+systemctlemctl --user add-wants niri.service mako.service
+systemctl --user add-wants niri.service mako.service
+which tofi-power-menu
+cd /usr/local/bin/
+sudo nvim tofi-power-menu
+mako
+makoctl restore
+sudo pacman -Rs mako
+sudo pacman -S dunst 
+dunst --help
+dunstctl --help
+dunstctl reload
+cl hypr
+v hyprland.conf
+notify-send "NOTIFICATION SENT"
+\:wq
+cl notes
+tar cf server-notes.txt
+tar --help
+tar cf server-notes.txt/notes.tar
+tar --usage
+man tar
+cp server-notes.txt server-notes.txt.bak
+tar f server-notes.txt.bak
+tar c server-notes.txt.bak
+tar cf server-notes.txt.bak
+tar cf server-notes.txt.bak compression
+tar cf server-notes.txt.bak/notes.tar compression
+tar cf notes.tar server-notes.txt.bak
+tar -tf notes.tar
+rm server-notes.txt.bak
+tar xf notes.tar
+rm notes.tar
+cat << hello\
+hey\
+ola\
+hello
+cd .nothing
+sudo pacman -S swaybg
+killall swww-daemon
+systemctl --user daemon-reload
+systemctl --user add-wants niri.service swaybg.service
+btop
+cl Animations
+sudo pacman -Rs swww
+cl niri
+cl tmux
+v tmux.conf
+uname -r
+v
+free -m
+free -g
+lscpu
+ls /dev/sd*
+lsblk
+ps
+cat /proc/1/cmdline
+cat /proc/1/cmdline ; echo
+tail -f /var/log/messages
+less /var/log/messages
+journalctl -b
+host www.google.com
+id
+ls -ldh /tmp/ /var/tmp/
+pstree
+yay -S mkinitcpio-numlock
+cd /etc
+sudo nvim mkinitcpio.conf
+cd
+sudo pacman -Rs wtf-util
+sudo pacman -Rs wtf-utils
+yay -Rs wtf-utils
+yay -Ss wtf-util
+yay -Ss wtf
+sudo pacman -Rs wtfutil
+sudo pacman -Ss kvantum
+sudo pacman -S kvantum
+sudo pacman -S kvantum-theme-materia
+ls
+v config.kdl
+find config
+find config.kdl
+c
+free
+last
+man last
+y
+sudo pacman -Syu
+yay -Syu
+sudo pacman -Syu hyprland
+niri validate
+systemctl reboot
+sudo systemctl reboot
+sudo pacman -Syu lightdm
+sudo systemctl stop ly.service
+sudo systemctl disable ly.service
+sudo systemctl enable lightdm.service
+sudo systemctl start lightdm.service
+sudo pacman -S lightdm-gtk-greeter
+: 1758305065:0;sudo systemctl disable lightdm.service
+: 1758305079:0;sudo systemctl enable ly.service
+: 1758305083:0;sudo systemctl start ly.service
+: 1758305521:0;journalctl -b
+: 1758306217:0;cat /etc/passwd
+: 1758306259:0;sudo pacman -Rs hyprland
+: 1758306449:0;ls /var/cache/pacman/pkg/
+: 1758306549:0;yay -S downgrade
+: 1758306586:0;sudo downgrade systemd
+: 1758306729:0;sudo downgrade systemd-libs
+: 1758306751:0;sudo downgrade systemd
+: 1758306800:0;sudo systemctl reboot
+: 1758306915:0;sudo pacman -Syu
+: 1758306955:0;sudo systemctl reboot
+: 1758307135:0;loginctl
+: 1758307156:0;journalctl
+: 1758307192:0;journalclt -b
+: 1758307199:0;journalctl -b
+: 1758307430:0;pacman -Qi systemd
+: 1758307446:0;sudo downgrade systemd
+: 1758307648:0;sudo downgrade systemd-libs
+: 1758307679:0;sudo downgrade systemd
+: 1758307717:0;sudo downgrade systemd-libs
+: 1758307768:0;pacman -Qi systemd
+: 1758307799:0;sudo downgrade systemd-libs
+: 1758307845:0;sudo downgrade systemd
+: 1758307872:0;pacman -Qi systemd
+: 1758307947:0;sudo downgrade systemd-libs
+: 1758307984:0;sudo downgrade systemd
+: 1758308065:0;sudo pacman -Syu
+: 1758308121:0;sudo pacman -S systemd-libs=257.9-1 systemd=257.9-1
+                                       : 1758310301:0;journalctl -b
+: 1758310329:0;journalctl
+: 1758310437:0;mkinitcpio -p linux
+: 1758310453:0;sudo downgrade systemd
+: 1758310521:0;sudo downgrade systemd-libs
+: 1758310632:0;pacman -Qi systemd
+: 1758310642:0;pacman -Q systemd
+: 1758310664:0;journalctl -b
+: 1758311003:0;sudo systemctl reboot
+: 1758311241:0;journalctl -b
+: 1758311739:0;sudo downgrade systemd-libs systemd
+: 1758311806:0;sudo downgrade systemd systemd-libs systemd-sysvcompat
+: 1758311883:0;pacman -Q systemd
+: 1758311893:0;sudo systemctl reboot
+: 1758318166:0;y
+: 1758319008:0;lspci
+: 1758319079:0;lsusb
+: 1758319316:0;lspci -v
+: 1758319353:0;lspci -v | grep "AMD"
+: 1758319831:0;cd tmux
+: 1758319843:0;cl tmux
+: 1758319851:0;v tmux.conf
+: 1758319943:0;lsusb -t
+: 1758319959:0;cl zsh
+: 1758319992:0;cl niri
+: 1758319997:0;cl zsh
+: 1758320020:0;cp .histfile .histfile.bak
